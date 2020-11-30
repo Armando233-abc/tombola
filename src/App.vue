@@ -16,3 +16,21 @@ export default defineComponent({
   }
 });
 </script>
+
+<style>
+
+body{
+  --verde: #59886b;
+  --rosso: #c05555;
+  --giallo: #ffc85c;
+  --panna: #fff8c1;
+  --bianco: #fff;
+  
+}
+ion-content,ion-page{
+  background-color: var(--verde) !important;
+}
+ion-tabs{
+  background-color: var(--bianco) !important;
+}
+</style>
