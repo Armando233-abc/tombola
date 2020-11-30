@@ -1,0 +1,7 @@
+{
+  "name": "tombola",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
