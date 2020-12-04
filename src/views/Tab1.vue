@@ -115,8 +115,7 @@ h1,
     border: 4px solid var(--rosso);
     border-radius: 50%;
     box-sizing: border-box;
-    place-content: center;
-    display: grid;
+  
     place-content: center;
     display: grid;
     font-weight: 700;
