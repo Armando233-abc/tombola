@@ -50,6 +50,8 @@ export default  {
             this.estratto = numero
             this.voce = Smorfia[numero.toString()]
             this.listaEstratti.unshift(numero)
+            const listaEstrattiStr = JSON.stringify(this.listaEstratti)
+            localStorage.setItem("estratti", listaEstrattiStr)
             const voce = Smorfia[numero.toString()]
             const frase = new SpeechSynthesisUtterance()
             frase.text = voce.napoletano
